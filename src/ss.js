@@ -13,7 +13,7 @@ const Ss = () => {
     });
   };
 
-  // This is where we actually change the background color
+
   useEffect(() => {
     document.body.style.backgroundImage =
       "./assets/background_images/clouds.jpg";

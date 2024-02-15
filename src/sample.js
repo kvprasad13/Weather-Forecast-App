@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import {
   cloud,
-  // full_cloud,
+ 
   heavy_rain,
   low_rain,
   mist_snow,
@@ -17,7 +17,7 @@ import {
   tornado,
   few_clouds,
   shower_snow,
-  // def
+ 
 } from "./import_img";
 
 const api = process.env.REACT_APP_API_KEY;
@@ -82,8 +82,7 @@ function Sample() {
 
   
   console.log(api);
-  //   console.log(bgImg);
-  //   console.log(api);
+  
   const fetchWeather = async () => {
     console.log("in fetchweather");
     await axios
@@ -109,7 +108,7 @@ function Sample() {
   useEffect(() => {
     console.log("in useeffect change " + change);
     console.log("in useEffect only");
-    // if (city) fetchWeather();
+    
     if (data) {
       console.log(data.weather[0].description);
       changeImg({ data, setBgImg });
@@ -130,8 +129,7 @@ function Sample() {
     console.log("just after change");
     if (city) fetchWeather();
     console.log(api);
-    // setCity("");
-    // console.log("city is set to null");
+    
   };
 
   return (
@@ -151,7 +149,7 @@ function Sample() {
       <div className="card">
         <h1>Weather Forecast</h1>
         <br />
-        {/*  the original card */}
+       
         <form onSubmit={submitHandler}>
           <div className="form-group">
             
