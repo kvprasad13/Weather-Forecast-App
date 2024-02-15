@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Weather Forecast App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+🌤️ Weather Watcher is an interactive web application crafted with React, designed to help users stay informed about weather conditions in various cities. Offering comprehensive features like temperature tracking, humidity monitoring, wind speed updates, and atmospheric pressure insights, it delivers an immersive experience for weather enthusiasts.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **City Weather Data:**
+  - 🏙️ Access real-time weather information for different cities.
 
-### `npm start`
+- **API Integration:**
+  - 🔑 Utilize API keys to retrieve weather data from a reliable source.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:**
+  - ⚛️ React
+  - 🎨 Bootstrap
+  - 🎨 CSS
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- 📚 npm installed
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 1. Clone the repository
+      git clone https://github.com/your-username/weather-forecast-app.git
+      cd weather-forecast-app
+#### 2. Install dependencies
+      npm install
+#### 3. Run the application
+      npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Folder Structure
+      weather-forecast-app/
+      |-- public/
+      |-- src/
+      |   |-- assets/
+      |   |   |-- background_imagess/
+      |   |   |   |-- broken_cloud.jpg
+      |   |   |   |-- clear_sky.jpg
+      |   |   |   |-- clouds.jpg
+      |   |   |   |-- default.jpg
+      |   |   |   |-- dust.jpg
+      |   |   |   |-- few_clouds.jpg
+      |   |   |   |-- full_clouds.jpg
+      |   |   |   |-- heavy_rain.jpg
+      |   |   |   |-- low_rain.jpg
+      |   |   |   |-- mist_snow.jpg
+      |   |   |   |-- mist.jpg
+      |   |   |   |-- rainbow.jpg
+      |   |   |   |-- shower_snow.jpg
+      |   |   |   |-- snow.jpg
+      |   |   |   |-- thunderstorm.jpg
+      |   |   |   |-- tornado.jpg
+      |   |   |-- 04n_2x-removebg-preview.png
+      |   |-- App.js
+      |   |-- App.test.js
+      |   |-- import_img.js
+      |   |-- reportWebVitals.js
+      |   |-- sample.js
+      |   |-- setupTests.js
+      |   |-- SS.js
+      |   |-- weather.js
+      |   |-- index.js
+      |   |-- index.css
+      |   |-- sample.css
+      |-- .gitignore
+      |-- package.json
+      |-- README.md
 
-### `npm run eject`
+# Screenshots of this project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Home Page
+![Screenshot 2024-02-15 225521](https://github.com/kvprasad13/Weather-Forecast-App/assets/123655329/ffa2c8e4-e6ad-40de-9d1e-f9a89a612793)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Search Functionality
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  ### London
+![Screenshot 2024-02-15 233715](https://github.com/kvprasad13/Weather-Forecast-App/assets/123655329/9467b8fe-8567-454f-a254-7a2fe185d1ee)
 
-## Learn More
+  ### Mexico
+![Screenshot 2024-02-15 233735](https://github.com/kvprasad13/Weather-Forecast-App/assets/123655329/68c415cc-17c3-4ae6-8d18-25ab9b7ec23b)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ### Delhi
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot 2024-02-15 233754](https://github.com/kvprasad13/Weather-Forecast-App/assets/123655329/bd2c0067-1f34-4baf-b075-0f9c63cd8503)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Author
+Varaprasad Kade
